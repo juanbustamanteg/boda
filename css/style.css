@@ -1,0 +1,179 @@
+
+* {
+    margin:0;
+    padding: 0;
+}
+/* Apply styles to the navigation bar */
+.sticky-nav {
+    position: relative;
+    background-color: white; /* Change to your preferred background color */
+    z-index: 100; /* Adjust the z-index as needed */
+    display: flex;
+    justify-content: space-between; /* Icon on the left, menu on the right */
+    align-items: center; /* Center vertically */
+    padding: 10px 20px; /* Adjust padding as needed */
+}
+header {
+    position: sticky;
+    top: 0;
+    height: 100px;
+    width: 100%;
+
+}
+/* Style the logo */
+.logo img {
+    height: 70px; /* Adjust the logo size as needed */
+}
+
+/* Style the menu list and links */
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0;
+    padding: 0;
+    display: inline-block; /* Display menu items horizontally */
+    margin-left: 20px; /* Adjust spacing between menu items as needed */
+}
+
+.menu a {
+    color: #4D504A; /* Change to your preferred text color */
+    text-decoration: none;
+    font-weight: bold; /* Optionally, make the menu text bold */
+}
+
+/* Style the links on hover */
+.menu a:hover {
+    background-color: #A78556;
+    color: white; /* Change to your preferred hover background color */
+    border-radius: 5px; /* Add a subtle rounded corner effect */
+}
+
+
+img {
+    max-width: 100%;
+}
+
+
+/* Start of Background styles */
+.bg-marble {
+    background-image: url(../assets/marble-background.jpg);
+    min-height: 400px;
+}
+.bg-leaves {
+    background-image: url(../assets/leaf-ornament.png);
+    min-height: 400px;
+}
+.bg-carousel {
+    background-image:url(../assets/home01.jpg);
+    min-height: 400px;
+}
+.bg-quote {
+    background-image:url(../assets/quote01.jpg);
+    min-height: 400px;
+}
+.bg-footer {
+    background-color: #2F2313;
+    background-image:url(../assets/footer01.jpg);
+    background-position: center center;
+    background-size: cover;
+    position:relative;
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 380px;
+    overflow:hidden;
+
+}
+.bg-gold {
+    background-color: #A78556;
+    min-height: 400px;
+}
+.bg-white {
+    background-color:whitesmoke;
+    min-height: 400px;
+}
+.bg-beige {
+    background-color:#E2D9D3;
+    min-height: 400px;
+}
+/* End of background styles */
+
+/* start of text styles */
+.main-title h1 {
+    color: whitesmoke;
+}
+.section h2 {
+    color:#A78556;
+}
+
+.section h3 {
+    color:#A78556;
+}
+
+.section p{
+    color:#4D504A;
+}
+.quote>div>p {
+    color:whitesmoke;
+}
+.lodgement li>a {
+    color:#4D504A
+}
+.bg-footer h2 {
+    color: whitesmoke;
+}
+.bg-footer p {
+    color: whitesmoke;
+}
+/* End of text styles */
+
+
+/* Start of Grids */
+.itinerary-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: minmax(50px, auto);
+    gap: 1sem;    
+}
+
+.gifts-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(50px, auto);
+    gap: 1sem;    
+
+}
+
+.love-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: minmax(50px, auto);
+    gap: 1sem;    
+
+}
+
+.lodgement-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(50px, auto);
+    gap: 1sem;    
+}
+
+/* End of grids */
+
+
+/* start images style */
+.footer-mg {
+    height: 30px;
+}
+/* end images style */
+
+
+.footer-filter img {
+    color:#2F2313;
+    
+}
